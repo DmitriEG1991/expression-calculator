@@ -19,7 +19,7 @@ function expressionCalculator(w) {
     if(dom == Infinity){
         throw "TypeError: Division by zero.";
     }  
-    return result;
+    return dom;
 }
 module.exports = {
     expressionCalculator
